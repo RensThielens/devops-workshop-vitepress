@@ -8,6 +8,7 @@
 ## Hoe Voortgang Bijhouden Werkt in Deze Workshop
 
 **Meta-Leer Aanpak**: Deze voortgangstracker heeft een dubbel doel:
+
 1. **Leermiddel**: Het bewerken ervan leert Git workflows (Code fase)
 2. **Beoordelingsmiddel**: Het bijhouden van de voltooiing van alle 5 DevOps fasen
 
@@ -19,11 +20,11 @@
 
 ## Persoonlijke Workshop Informatie
 
-**Deelnemer Naam:** `[Jouw Volledige Naam]`  
-**Workshop Datum:** `[Voeg vandaag's datum toe]`  
-**Doel:** `[Wat wil je bereiken? bijv., "Mijn eerste CI/CD pipeline bouwen"]`  
-**GitHub Gebruikersnaam:** `[jouw-github-gebruikersnaam]`  
-**Verwachte Site URL:** `https://[jouw-gebruikersnaam].github.io/devops-workshop-vitepress/`
+**Deelnemer Naam:** `[Rens Thielens]`  
+**Workshop Datum:** `[27-11-2025]`  
+**Doel:** `[Mijn eerste CI/CD pipeline bouwen]`  
+**GitHub Gebruikersnaam:** `[RensThielens]`  
+**Verwachte Site URL:** `https://RensThielens.github.io/devops-workshop-vitepress/`
 
 ---
 
@@ -46,15 +47,15 @@ Houd je voortgang bij door elke DevOps fase. **Bewerk dit bestand om je status b
 </div>
 
 **Voltooiing Checklist:**
-- [ ] De workshop repository geforkt naar mijn GitHub account
-- [ ] Mijn fork lokaal gekloond en de site werkend gekregen (`pnpm dev`)
-- [ ] Mijn eerste feature branch aangemaakt (`feat/personaliseer-tracker`)
-- [ ] **Deze voortgangstracker bewerkt** met mijn persoonlijke informatie
+
+- [ x] De workshop repository geforkt naar mijn GitHub account
+- [ x] Mijn fork lokaal gekloond en de site werkend gekregen (`pnpm dev`)
+- [ x] Mijn eerste feature branch aangemaakt (`feat/personaliseer-tracker`)
+- [ x] **Deze voortgangstracker bewerkt** met mijn persoonlijke informatie
 - [ ] Mijn eerste commit gemaakt met een goede commit message
 - [ ] Mijn branch gepusht naar GitHub
 - [ ] Mijn eerste Pull Request aangemaakt en gemerged
 - [ ] Geverifieerd dat mijn wijzigingen live zijn op mijn main branch
-
 
 **Tijdstempel Voltooid:** `[Voeg toe wanneer klaar]`
 
@@ -71,6 +72,7 @@ Houd je voortgang bij door elke DevOps fase. **Bewerk dit bestand om je status b
 </div>
 
 **Voltooiing Checklist:**
+
 - [ ] `.github/workflows/build.yml` bestand aangemaakt
 - [ ] Succesvol `pnpm build` lokaal uitgevoerd
 - [ ] Workflow gepusht en groene build gezien in GitHub Actions
@@ -92,14 +94,16 @@ Houd je voortgang bij door elke DevOps fase. **Bewerk dit bestand om je status b
 </div>
 
 **Voltooiing Checklist:**
+
 - [ ] `tests/site.test.js` aangemaakt met content validatie tests
 - [ ] Jest geconfigureerd met `jest.config.js`
 - [ ] Tests lokaal uitgevoerd met `pnpm test`
 - [ ] Test job toegevoegd aan CI workflow
-- [ ] >80% test coverage bereikt
+- [ ] > 80% test coverage bereikt
 - [ ] Een test failure opgelost (gesimuleerd of echt)
 
 **Mijn Test Fase Notities:**
+
 ```
 [Voeg hier jouw reflecties toe tijdens Fase 3]
 - Wat ik geleerd heb over geautomatiseerde testing:
@@ -122,6 +126,7 @@ Houd je voortgang bij door elke DevOps fase. **Bewerk dit bestand om je status b
 </div>
 
 **Voltooiing Checklist:**
+
 - [ ] Release job toegevoegd aan CI workflow (getriggerd door tags)
 - [ ] Mijn eerste tag aangemaakt en gepusht (`v1.0.0`)
 - [ ] Een release gegenereerd met downloadbare assets
@@ -129,6 +134,7 @@ Houd je voortgang bij door elke DevOps fase. **Bewerk dit bestand om je status b
 - [ ] Het verschil begrepen tussen releases en deployments
 
 **Mijn Release Fase Notities:**
+
 ```
 [Voeg hier jouw reflecties toe tijdens Fase 4]
 - Wat ik geleerd heb over semantic versioning:
@@ -151,6 +157,7 @@ Houd je voortgang bij door elke DevOps fase. **Bewerk dit bestand om je status b
 </div>
 
 **Voltooiing Checklist:**
+
 - [ ] Deploy job toegevoegd aan CI workflow
 - [ ] Succesvol site gedeployed naar GitHub Pages
 - [ ] Live site geverifieerd op: `https://[mijn-gebruikersnaam].github.io/devops-workshop-vitepress/`
@@ -158,6 +165,7 @@ Houd je voortgang bij door elke DevOps fase. **Bewerk dit bestand om je status b
 - [ ] De volledige CI/CD pipeline voltooid van code tot productie
 
 **Mijn Deploy Fase Notities:**
+
 ```
 [Voeg hier jouw reflecties toe tijdens Fase 5]
 - Wat ik geleerd heb over continuous deployment:
@@ -172,6 +180,7 @@ Houd je voortgang bij door elke DevOps fase. **Bewerk dit bestand om je status b
 ## Eindreflectie Workshop
 
 ### Algemene Leersamenvatting
+
 ```
 [Voltooi dit na het afronden van alle fasen]
 
@@ -201,7 +210,7 @@ Houd je voortgang bij door elke DevOps fase. **Bewerk dit bestand om je status b
 ## Workshop Bronnen & Vervolgstappen
 
 - 📚 **Uitbreidingen om te Proberen:** Workshop Uitbreidingen
-- 🔧 **Hulp Nodig?** Probleemoplossing Gids  
+- 🔧 **Hulp Nodig?** Probleemoplossing Gids
 - 💭 **Geef Feedback:** Workshop Feedback
 - 📖 **Diepgaande Theorie:** CI/CD Overzicht
 
